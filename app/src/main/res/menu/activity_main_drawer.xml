@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_status"
+            android:checked="true"
+            android:icon="@drawable/ic_book_black_36dp"
+            android:title="News Feed (Status)" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/ic_perm_identity_black_36dp"
+            android:title="Friends" />
+
+        <item
+            android:id="@+id/nav_photos"
+            android:icon="@drawable/ic_photo_black_36dp"
+            android:title="Photos" />
+    </group>
+
+    <item android:title="More Options">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_black_36dp"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_power_settings_new_black_36dp"
+                android:title="Log Out" />
+
+        </menu>
+    </item>
+
+    <item android:title="Testing Purposes">
+        <menu>
+            <item
+                android:id="@+id/nav_notification"
+                android:title="Preview Notification"/>
+            <item
+                android:id="@+id/nav_token"
+                android:title="View Registration Token"/>
+        </menu>
+    </item>
+
+</menu>
